@@ -1,6 +1,7 @@
+import { Headline, Section, Status, TopPosts } from './Home.style';
 import React, { useState } from 'react';
+
 import Container from '../../components/Container';
-import { Section, Headline, Status, TopPosts } from './Home.style';
 import Form from './Form';
 
 function Home() {

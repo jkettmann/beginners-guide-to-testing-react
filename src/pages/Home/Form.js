@@ -1,9 +1,10 @@
+import { FormContainer, Input, Label } from './Form.style';
 import React, { useState } from 'react';
+
 import Button from '../../components/Button';
-import { FormContainer, Label, Input } from './Form.style';
 
 function Form({ onSearch }) {
-  const [subreddit, setSubreddit] = useState('javascript');
+  const [subreddit, setSubreddit] = useState('reactjs');
 
   const onSubmit = (event) => {
     event.preventDefault();
